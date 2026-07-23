@@ -1,7 +1,7 @@
     Get the patch and repo
 
 
-git clone https://github.com/lonewolf0622/FF7-Rebirth.git ~/bc250-toolkit
+git clone https://github.com/lonewolf0622/FF7BC250.git ~/bc250-toolkit
 cd ~/bc250-toolkit
 
 (Adjust if you already have this cloned elsewhere—e.g., ~/Downloads/Bc250-radeon-patch-main).
