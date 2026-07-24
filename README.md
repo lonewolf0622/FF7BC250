@@ -121,7 +121,7 @@ VK_ICD_FILENAMES=~/radeon_modded_icd.x86_64.json vulkaninfo | head -30
 Right-click **Final Fantasy VII Rebirth** in Steam → **Properties** → **General** → **Launch Options**, and paste:
 
 ```bash
-RADV_DEBUG=nocompute VK_ICD_FILENAMES=/home/YOUR_USERNAME/radeon_modded_icd.x86_64.json %command%
+VK_ICD_FILENAMES=/home/YOUR_USERNAME/radeon_modded_icd.x86_64.json %command%
 ```
 
 > ⚠️ Replace `YOUR_USERNAME` in the path above with your actual system username (e.g., `/home/deck/...` if using a Steam Deck profile).
